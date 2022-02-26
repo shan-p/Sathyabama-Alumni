@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathyabama Alumni</title>
+    <link rel="stylesheet" type="text/css" href="/main1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+    <header>
+        <a href="/index.html"><h1>SATHYABAMA ALUMNI</h1></a>
+        <!-- <p>a small caption</p> -->
+    </header>
+    <mainForm>
+        <div class="main_form_div">
+            <form action="backend.php">
+                <p id="para" class="form_head">Alumni Contact Information</p>
+                <div class="form_inside">
+                    <div>
+                        <label class="form_label" for="fname">First name : </label>
+                        <input class="form_input" type="name" id="fname" name="fname" value=""
+                            placeholder="Enter Your First Name">
+                        <label class="form_label" for="lname">Last name : </label>
+                        <input class="form_input" type="text" id="lname" name="lname" value=""
+                            placeholder="Enter Your Last Name">
+                    </div>
+                    <div>
+                        <a class="form_label">Gender :</a>
+                        <select class="form_gender" aria-label="Default select example">
+                            <option selected>Select your Gender :</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Other</option>
+                        </select>
+                    </div>
+                    <label class="form_label" for="dateObirth">Date of Birth :</label>
+                    <input class="form_input" type="date">
+                    <div>
+                        <label class="form_label" for="lname">Department :</label>
+                        <input class="form_input" type="text" id="dept" name="dept" value=""
+                            placeholder="Enter Your Department">
+                    </div>
+                    <div>
+                        <label class="form_label" for="lname">Batch :</label>
+                        <input class="form_input" type="text" id="dept" name="dept" value=""
+                            placeholder="eg: 2020-2024">
+                    </div>
+                    <div>
+                        <label class="form_label" for="email">Email :</label>
+                        <input class="form_input" type="email" id="lname" name="lname" value=""
+                            placeholder="Enter Your Email">
+                    </div>
+                    <div>
+                        <label class="form_label" for="email">Phone Number :</label>
+                        <input class="form_input" type="tel" id="lname" name="lname" value=""
+                            placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="address1">
+                        <label for="inputAddress" class="form_label">Address :</label>
+                        <input type="text" class="form_input" id="inputAddress" placeholder="Enter your address">
+                    </div>
+                    <div>
+                        <label class="form_label" for="input_17">Upload Photo :</label>
+                        <div><input id="upload" type="file" class="upload" name="q17_uploadPhoto" class="form_upload"
+                                data-file-accept="pdf, doc, docx, xls, xlsx, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif"
+                                data-file-maxsize="5120" data-file-minsize="0" data-file-limit="0"
+                                data-component="fileupload" /></div>
+                    </div>
+                    <div class="sub_res">
+                        <a href="/tq.html"><input class="btn" class="sub_res" type="" value="Submit" ></a>
+                        <input class="btn" class="sub_res" type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </mainForm>
+</body>
+
+</html>
