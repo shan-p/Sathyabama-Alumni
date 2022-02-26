@@ -1,2 +1,2 @@
 # Sathyabama-Alumni
-After installing please run the index.html file
+After Downloading please run the index.html file
